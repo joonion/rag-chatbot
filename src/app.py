@@ -8,6 +8,6 @@ if question := st.chat_input("질문을 입력하세요."):
     with st.chat_message("user"):
         st.markdown(question)
     
-    response = f"와, 너 **핵심**을 *콕* 찔렀어! {question}이라고 질문하다니!"
+    response = f"전 아무 것도 몰라요!"
     with st.chat_message("assistant"):
         st.markdown(response)
